@@ -1,0 +1,16 @@
+modules:
+  # Brave Browser
+  - type: dnf
+    repos:
+      files:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+      cleanup: true
+    install:
+      packages:
+        - brave-browser
+
+  # Official Discord RPM
+  - type: dnf
+    install:
+      packages:
+        - https://discord.com/api/download?platform=linux&format=rpm

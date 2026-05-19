@@ -1,0 +1,11 @@
+name: bazzite-gnome
+description: "Custom Universal Blue bazzite gnome image."
+
+base-image: ghcr.io/ublue-os/bazzite-gnome
+image-version: stable # latest is also supported if you want new updates ASAP
+
+modules:
+  - from-file: common/packages.yml
+
+  # Signing
+  - type: signing
