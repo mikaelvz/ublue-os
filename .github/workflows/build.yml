@@ -27,6 +27,7 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here
+          - recipe-bazzite-gnome.yml
           - recipe-bluefin-kled.yml
         build_chunked_oci: true
     steps:
