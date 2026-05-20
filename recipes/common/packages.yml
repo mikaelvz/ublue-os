@@ -14,3 +14,9 @@ modules:
     install:
       packages:
         - https://discord.com/api/download?platform=linux&format=rpm
+
+  # Official Visual Studio Code RPM
+  - type: dnf
+    install:
+      packages:
+        - https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64
