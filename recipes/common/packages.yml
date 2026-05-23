@@ -1,28 +1,8 @@
 modules:
-  # Brave Browser
-  - type: dnf
-    repos:
-      files:
-        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-      cleanup: true
-    install:
-      packages:
-        - brave-browser
-
-  # Official Discord RPM
   - type: dnf
     install:
       packages:
+        # Official Discord RPM
         - https://discord.com/api/download?platform=linux&format=rpm
-
-  # Official Visual Studio Code RPM
-  - type: dnf
-    install:
-      packages:
+        # Official Visual Studio Code RPM
         - https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64
-
-  # Firefox Browser
-  - type: dnf
-    install:
-      packages:
-        - firefox
