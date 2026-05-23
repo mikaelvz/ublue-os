@@ -5,6 +5,7 @@
 - Added official [Brave Browser](https://brave.com/) package.
 - Added official [Discord](https://discord.com/) package.
 - Added official [Visual Studio Code](https://code.visualstudio.com/) package.
+- Added official [Firefox Browser](https://www.firefox.com/) package.
 
 ### Installation
 
