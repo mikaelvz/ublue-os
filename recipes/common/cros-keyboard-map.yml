@@ -1,10 +1,12 @@
 modules:
   # Install keyd
-  - type: rpm-ostree
+  - type: dnf
     repos:
-      - https://copr.fedorainfracloud.org/coprs/alternateved/keyd/repo/fedora-%OS_VERSION%/alternateved-keyd-fedora-%OS_VERSION%.repo
+      copr:
+        - alternateved/keyd
     install:
-      - keyd
+      packages:
+        - keyd
 
   # Enable keyd
   - type: systemd
