@@ -17,6 +17,7 @@ modules:
     files:
       - source: system/keyd
         destination: /
+
   - type: script
     snippets:
       - "git clone https://github.com/WeirdTreeThing/cros-keyboard-map /tmp/cros-keyboard-map"
