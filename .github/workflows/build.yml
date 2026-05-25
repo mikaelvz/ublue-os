@@ -29,6 +29,7 @@ jobs:
           # !! Add your recipes here
           - recipe-bazzite-gnome.yml
           - recipe-bluefin-kled.yml
+          - recipe-bazzite-gnome-kled.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
