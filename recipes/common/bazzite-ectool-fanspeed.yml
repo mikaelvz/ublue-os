@@ -1,0 +1,12 @@
+modules:
+  # Install fanspeed scripts and example configuration
+  - type: files
+    files:
+      - source: system/ectool
+        destination: /
+
+  # Enable systemd service
+  - type: systemd
+    system:
+      enabled:
+        - ectool-fanspeed.service
