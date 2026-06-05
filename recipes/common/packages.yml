@@ -4,5 +4,3 @@ modules:
       packages:
         # Official Discord RPM
         - https://discord.com/api/download?platform=linux&format=rpm
-        # Official Visual Studio Code RPM
-        - https://code.visualstudio.com/sha/download?build=stable&os=linux-rpm-x64
