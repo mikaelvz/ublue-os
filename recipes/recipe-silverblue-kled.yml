@@ -1,0 +1,14 @@
+name: silverblue-kled
+description: "Custom BlueBuild silverblue image for Acer Chromebook Spin 713 (CP713-2W) (Board Name: KLED)."
+
+base-image: ghcr.io/blue-build/base-images/fedora-silverblue
+image-version: latest
+
+modules:
+  - from-file: common/chromebook-linux-audio.yml
+  - from-file: common/cros-keyboard-map.yml
+  - from-file: common/ectool-fanspeed.yml
+  - from-file: common/packages.yml
+
+  # Signing
+  - type: signing
