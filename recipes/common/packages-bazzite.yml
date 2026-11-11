@@ -1,0 +1,6 @@
+modules:
+  - type: dnf
+    install:
+      packages:
+        # Official Discord RPM
+        - https://discord.com/api/download?platform=linux&format=rpm
